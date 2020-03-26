@@ -1,3 +1,11 @@
+const Card = ({ title, imgSrc, imgAlt, description }) => (
+  <div className="bg-white shadow rounded-lg text-center p-8 mb-10">
+    <img src={imgSrc} alt={imgAlt} />
+    <h2 className="text-xl font-bold font-heading mt-12 mb-4">{title}</h2>
+    <p className="text-sm text-blue">{description}</p>
+  </div>
+);
+
 export default () => (
   <div className="font-body text-cyan-dark">
     <header
@@ -28,18 +36,36 @@ export default () => (
         />
       </div>
     </header>
-    Grow Together Generate meaningful discussions with your audience and build a
-    strong, loyal community. Think of the insightful conversations you miss out
-    on with a feedback form. Flowing Conversations You wouldn't paginate a
-    conversation in real life, so why do it online? Our threads have
-    just-in-time loading for a more natural flow. Your Users It takes no time at
-    all to integrate Huddle with your app's authentication solution. This means,
-    once signed in to your app, your users can start chatting immediately. Ready
-    To Build Your Community? Get Started For Free Lorem ipsum dolor sit amet,
-    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-    dolore magna aliqua +1-543-123-4567 example@huddle.com About Us What We Do
-    FAQ Career Blog Contact Us &copy; Copyright 2018 Huddle. All rights
-    reserved.
+    <section className="px-4 py-12">
+      <Card
+        imgSrc="/images/illustration-grow-together.svg"
+        imgAlt="desktop and mobile browsers"
+        title="Grow Together"
+        description="Generate meaningful discussions with your audience and build a strong,
+          loyal community. Think of the insightful conversations you miss out on
+          with a feedback form."
+      />
+      <Card
+        imgSrc="/images/illustration-flowing-conversation.svg"
+        imgAlt="desktop and mobile browsers"
+        title="Flowing Conversations"
+        description="You wouldn't paginate a conversation in real life, so why do it online? Our
+    threads have just-in-time loading for a more natural flow."
+      />
+      <Card
+        imgSrc="/images/illustration-your-users.svg"
+        imgAlt="desktop and mobile browsers"
+        title="Your Users"
+        description="It takes no time at all to integrate Huddle with your app's authentication
+    solution. This means, once signed in to your app, your users can start
+    chatting immediately."
+      />
+    </section>
+    Ready To Build Your Community? Get Started For Free Lorem ipsum dolor sit
+    amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+    labore et dolore magna aliqua +1-543-123-4567 example@huddle.com About Us
+    What We Do FAQ Career Blog Contact Us &copy; Copyright 2018 Huddle. All
+    rights reserved.
     <footer>
       <p class="attribution">
         Challenge by{" "}
