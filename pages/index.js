@@ -1,11 +1,11 @@
 import Footer from "../components/footer";
-import Card from "../components/card"
-import Header from "../components/header"
+import Card from "../components/card";
+import Header from "../components/header";
 
 export default () => (
   <div className="font-body text-cyan-dark">
     <Header />
-    <section className="px-4 pt-16 pb-4">
+    <main className="px-4 pt-16 pb-4">
       <Card
         imgSrc="/images/illustration-grow-together.svg"
         imgAlt="desktop and mobile browsers"
@@ -30,15 +30,15 @@ export default () => (
     chatting immediately."
       />
       <div
-        className="relative bg-white rounded-lg text-center px-4 py-10 shadow-lg"
+        className="relative px-4 py-10 text-center bg-white rounded-lg shadow-lg"
         style={{ top: "5rem" }}
       >
-        <h2 className="font-heading mb-6">Ready To Build Your Community?</h2>
-        <button className="bg-pink px-10 py-2 text-xs font-bold rounded-full text-white shadow-lg">
+        <h2 className="mb-6 font-heading">Ready To Build Your Community?</h2>
+        <button className="px-10 py-2 text-xs font-bold text-white rounded-full shadow-lg bg-pink">
           Get Started For Free
         </button>
       </div>
-    </section>
+    </main>
     <Footer />
   </div>
 );
