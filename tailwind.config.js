@@ -8,8 +8,8 @@ module.exports = {
         pink: "hsl(322, 100%, 66%)"
       },
       fontFamily: {
-        body: ["'Poppins'", "sans-serif"],
-        heading: ["'Open Sans'", "sans-serif"]
+        heading: ["'Poppins'", "sans-serif"],
+        body: ["'Open Sans'", "sans-serif"]
       }
     }
   },
