@@ -5,7 +5,7 @@ import Header from "../components/header";
 export default () => (
   <div className="font-body text-cyan-dark">
     <Header />
-    <main className="px-4 pt-16 pb-4 md:px-8 lg:px-12 md:pt-24">
+    <main className="px-4 pt-16 pb-4 md:px-8 lg:px-16 md:pt-24">
       <div className="max-w-lg mx-auto md:max-w-none">
         <Card
           imgSrc="/images/illustration-grow-together.svg"
