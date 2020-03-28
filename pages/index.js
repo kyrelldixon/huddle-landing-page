@@ -38,7 +38,10 @@ export default () => (
         <h2 className="mb-6 font-heading md:text-2xl">
           Ready To Build Your Community?
         </h2>
-        <button className="px-10 py-2 text-xs font-bold text-white rounded-full shadow-lg bg-pink md:px-16 md:py-4">
+        <button
+          className="px-16 py-3 text-xs font-bold text-white transition duration-150 transform rounded-full bg-pink hover:scale-105 hover:bg-cyan-dark hover:text-white lg:py-4"
+          type="button"
+        >
           Get Started For Free
         </button>
       </div>

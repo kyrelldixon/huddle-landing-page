@@ -2,7 +2,7 @@ export default () => (
   <header className="relative bg-center bg-no-repeat bg-cover bg-cyan-light bg-mobile lg:bg-desktop">
     <nav className="flex items-center justify-between px-4 py-6 md:px-8 lg:px-16 lg:mb-4">
       <img className="h-4 lg:h-6" src="/images/logo.svg" alt="Huddle Logo" />
-      <button className="px-6 py-1 text-xs font-bold bg-white rounded-full shadow-lg md:px-10 md:py-2 lg:px-12 lg:py-3">
+      <button className="px-6 py-1 text-xs font-bold transition duration-150 transform bg-white rounded-full shadow-lg hover:scale-110 md:px-10 md:py-2 lg:px-12 lg:py-3 hover:text-white hover:bg-cyan-dark">
         Try It Free
       </button>
     </nav>
@@ -16,7 +16,10 @@ export default () => (
           so does your audience. Create connections with your users as you
           engage in genuine discussion.
         </p>
-        <button className="px-16 py-3 mb-8 text-xs font-bold text-white rounded-full bg-pink md:mb-0 lg:py-4">
+        <button
+          className="px-16 py-3 mb-8 text-xs font-bold text-white transition duration-150 transform rounded-full bg-pink hover:scale-105 hover:bg-cyan-dark hover:text-white md:mb-0 lg:py-4"
+          type="button"
+        >
           Get Started For Free
         </button>
       </div>
