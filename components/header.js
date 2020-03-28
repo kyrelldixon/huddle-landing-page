@@ -7,7 +7,7 @@ export default () => (
       </button>
     </nav>
     <div className="flex flex-col items-center px-8 pt-16 pb-8 text-center md:pb-12 md:pt-8 md:text-left md:flex-row lg:pb-20 lg:px-16 lg:pt-4 lg:text-left lg:flex-row">
-      <div className="max-w-lg pr-8 mb-4 md:mb-0 md:mr-8 lg:mr-12 lg:mt-12 md:flex-1">
+      <div className="max-w-lg mb-4 md:mb-0 md:mr-8 lg:mr-12 lg:mt-12 md:flex-1">
         <h1 className="mb-8 text-3xl font-bold lg:text-4xl">
           Build The Community Your Fans Will Love
         </h1>
