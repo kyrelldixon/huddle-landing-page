@@ -13,6 +13,10 @@ module.exports = {
       }
     }
   },
-  variants: {},
+  variants: {
+    flexDirection: ["responsive", "even"],
+    padding: ["responsive", "hover", "even"],
+    textAlign: ["responsive", "even"]
+  },
   plugins: []
 };

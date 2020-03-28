@@ -3,7 +3,7 @@ import { IoLogoInstagram } from "react-icons/io";
 import Logo from "./logo";
 
 export default () => (
-  <footer className="px-4 pt-24 pb-8 text-white bg-cyan-dark">
+  <footer className="px-4 pt-24 pb-8 text-white md:px-8 lg:px-12 bg-cyan-dark">
     <div className="mb-16">
       <Logo />
       <div className="flex mb-8">
@@ -26,11 +26,13 @@ export default () => (
         <p className="ml-6 -mt-1 leading-tight">example@huddle.com</p>
       </div>
     </div>
-    <nav className="mb-16">
-      <ul className="leading-loose">
+    <nav className="mb-16 leading-loose">
+      <ul>
         <li>About Us</li>
         <li>What We Do</li>
         <li>FAQ</li>
+      </ul>
+      <ul>
         <li>Career</li>
         <li>Blog</li>
         <li>Contact Us</li>
