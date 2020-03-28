@@ -55,21 +55,21 @@ export default () => (
             <a
               href="https://www.twitter.com/kyrelldixon"
               target="_blank"
-              className="px-1 py-1 mr-4 border border-gray-100 rounded-full"
+              className="px-1 py-1 mr-4 transition duration-150 border border-gray-100 rounded-full hover:bg-cyan-light hover:text-pink"
             >
               <TiSocialFacebook size="1.3rem" />
             </a>
             <a
               href="https://www.twitter.com/kyrelldixon"
               target="_blank"
-              className="px-1 py-1 mr-4 border border-gray-100 rounded-full"
+              className="px-1 py-1 mr-4 transition duration-150 border border-gray-100 rounded-full hover:bg-cyan-light hover:text-pink"
             >
               <TiSocialTwitter size="1.3rem" />
             </a>
             <a
               href="https://www.instagram.com/kyrell.dixon"
               target="_blank"
-              className="px-1 py-1 border border-gray-100 rounded-full"
+              className="px-1 py-1 transition duration-150 border border-gray-100 rounded-full hover:bg-cyan-light hover:text-pink"
             >
               <IoLogoInstagram size="1.3rem" />
             </a>
@@ -82,6 +82,7 @@ export default () => (
             <p>
               Challenge by{" "}
               <a
+                className="transition duration-150 hover:underline hover:text-pink"
                 href="https://www.frontendmentor.io?ref=challenge"
                 target="_blank"
                 rel="noreferrer nofollower"
@@ -90,6 +91,7 @@ export default () => (
               </a>{" "}
               Coded by{" "}
               <a
+                className="transition duration-150 hover:underline hover:text-pink"
                 href="https://www.kyrelldixon.com"
                 target="_blank"
                 rel="noreferrer nofollower"
